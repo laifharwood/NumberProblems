@@ -10,7 +10,14 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
+
+-(void)iterateCount:(int) x;
+-(float)multiplied:(float)z;
+-(float)divided:(float)q;
+
+
 
 
 @end
